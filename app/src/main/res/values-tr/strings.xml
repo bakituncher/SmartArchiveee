@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Akıllı Arşiv</string>
+
+    <string name="details_category">Kategori: %1$s</string>
+    <string name="details_date">Tarih: %1$s</string>
+    <string name="details_size">Boyut: %1$s</string>
+    <string name="action_share">Paylaş</string>
+    <string name="action_delete">Sil</string>
+
+    <string name="menu_title_toggle_view">Görünümü Değiştir</string>
+    <string name="menu_title_sort">Sırala</string>
+    <string name="menu_title_search">Ara</string>
+
+    <string name="menu_title_details">Detay</string>
+
+    <string name="empty_view_title">Arşivinizde Henüz Dosya Yok</string>
+    <string name="empty_view_subtitle">Başlamak için başka bir uygulamadan dosya paylaşın.</string>
+    <string name="empty_view_icon_content_description">Boş Arşiv İkonu</string>
+
+    <string name="file_preview_content_description">Dosya önizlemesi</string>
+    <string name="Ayarlar">Ayarlar</string>
+    <string name="dosya_tipi_konu">Dosya Tipi İkonu</string>
+
+    <string name="sort_dialog_title">Sıralama Ölçütü</string>
+    <string name="sort_date_desc">Tarihe Göre (Yeniden Eskiye)</string>
+    <string name="sort_name_asc">İsme Göre (A-Z)</string>
+    <string name="sort_name_desc">İsme Göre (Z-A)</string>
+    <string name="sort_size_asc">Boyuta Göre (Küçükten Büyüğe)</string>
+    <string name="sort_size_desc">Boyuta Göre (Büyükten Küçüğe)</string>
+    <string name="cancel">İptal</string>
+    <string name="yes_delete">Evet, Sil</string>
+    <string name="delete_confirmation_message">Seçilen dosyaları kalıcı olarak silmek istediğinizden emin misiniz?</string>
+    <string name="error_file_not_found">Hata: Dosya bulunamadı.</string>
+    <string name="error_no_app_to_open">Bu dosya türünü açacak bir uygulama bulunamadı.</string>
+    <string name="files_shared_not_found">Paylaşılacak dosya bulunamadı.</string>
+    <string name="error_no_app_for_action">Bu işlemi yapacak bir uygulama bulunamadı.</string>
+    <string name="files_deleted_toast">%1$d dosya silindi.</string>
+    <string name="file_deleted_toast">1 dosya silindi.</string>
+    <string name="give_file_a_name">Dosyaya Bir İsim Ver</string>
+    <string name="save">Kaydet</string>
+    <string name="file_not_received">Dosya alınamadı.</string>
+    <string name="file_saved_as">\'%1$s\' adıyla kaydedildi!</string>
+    <string name="error_file_not_saved">Hata: Dosya kaydedilemedi.</string>
+    <string name="error_invalid_name">Lütfen geçerli bir isim girin.</string>
+    <string name="app_theme">Uygulama Teması</string>
+    <string name="theme_light">Aydınlık</string>
+    <string name="theme_dark">Karanlık</string>
+    <string name="theme_system">Sistem Varsayılanı</string>
+    <string name="file_already_exists">Dosya Zaten Mevcut</string>
+    <string name="overwrite_confirmation">\'%1$s\' isminde bir dosya zaten mevcut. Üzerine yazılsın mı?</string>
+    <string name="replace">Değiştir</string>
+    <string name="category_office">Ofis Dosyaları</string>
+    <string name="category_images">Resim Dosyaları</string>
+    <string name="category_videos">Video Dosyaları</string>
+    <string name="category_audio">Ses Dosyaları</string>
+    <string name="category_archives">Arşiv Dosyaları</string>
+    <string name="category_other">Diğer Dosyalar</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="onboarding_image_description">Uygulama kullanım rehberi</string>
+    <string name="action_close">Kapat</string>
+    <string name="duplicate_file_found">Aynı Dosya Bulundu</string>
+    <string name="duplicate_file_message">Bu dosya zaten \'%1$s\' adıyla arşivlenmiş.\n\nYeniden kaydetmek, \'%2$s\' adında bir kopya oluşturacaktır. Devam etmek istiyor musunuz?</string>
+    <string name="action_save_copy">Kopyayı Kaydet</string>
+    <string name="action_privacy_policy">Gizlilik Politikası</string>
+    <string name="privacy_policy_url" translatable="false">https://www.codenzi.com/privacy-smart-archive.html</string>
+    <string name="action_add_file">Dosya Ekle</string>
+    <string name="play_pause_button">Sesi Oynat veya Duraklat</string>
+    <string name="manage_categories">Kategorileri Yönet</string>
+    <string name="add_new_category">Yeni Kategori Ekle</string>
+    <string name="add_new_category_spinner">Yeni Kategori Ekle...</string>
+    <string name="rename_category">Kategoriyi Yeniden Adlandır</string>
+    <string name="action_rename">Yeniden Adlandır</string>
+    <string name="add">Ekle</string>
+    <string name="category_name_empty">Kategori adı boş olamaz.</string>
+    <string name="category_already_exists">Bu kategori zaten mevcut.</string>
+    <string name="cannot_delete_category_title">Kategori Silinemiyor</string>
+    <string name="cannot_delete_category_message">\'%2$s\' kategorisinde %1$d adet dosya bulunuyor. Lütfen silmeden önce bu dosyaları başka bir kategoriye taşıyın.</string>
+    <string name="delete_category_confirmation_title">\'%1$s\' Silinsin mi?</string>
+    <string name="delete_category_confirmation_message">Bu kategori kalıcı olarak silinecektir. Bu işlem geri alınamaz.</string>
+    <string name="please_select_or_create_category">Lütfen bir kategori seçin veya oluşturun.</string>
+    <string name="category_name_hint">Kategori Adı</string>
+    <string name="select_a_category">Bir kategori seçin...</string>
+    <string name="category_selection_info">Kategori seçilmezse, dosyaya uygun bir kategori otomatik atanacaktır.</string>
+    <string name="action_move_category">Kategoriyi Taşı</string>
+    <string name="file_moved_to_category">Dosya, \'%1$s\' kategorisine taşındı.</string>
+    <string name="add_file_dialog_title">Yeni Dosya Ekle</string>
+    <string name="option_take_photo">Fotoğraf Çek</string>
+    <string name="option_record_video">Video Kaydet</string>
+    <string name="option_from_local_files">Yerel Dosyalardan Seç</string>
+
+    <string name="settings_category_general">Genel</string>
+    <string name="settings_category_about">Hakkında</string>
+
+    <string name="settings_category_drive">Google Drive Yedekleme</string>
+    <string name="settings_drive_title">Google Drive</string>
+    <string name="settings_google_logo_desc">Google Logosu</string>
+    <string name="action_sign_in">Giriş Yap</string>
+    <string name="action_sign_out">Çıkış Yap</string>
+    <string name="action_backup_now">Şimdi Yedekle</string>
+    <string name="action_restore">Geri Yükle</string>
+    <string name="action_delete_drive_data">Drive\'daki Verileri Sil</string>
+    <string name="status_not_signed_in">Giriş yapılmadı</string>
+    <string name="status_signed_in_as">Giriş yapıldı: %1$s</string>
+    <string name="last_backup_checking">Yedek kontrol ediliyor...</string>
+    <string name="last_backup_at">Son Yedekleme: %1$s</string>
+    <string name="last_backup_never">Daha önce yedek alınmamış.</string>
+
+    <string name="ok">Tamam</string>
+    <string name="settings_auto_backup_title">Otomatik Yedekleme</string>
+    <string name="settings_auto_backup_description">Wi-Fi\'ye bağlıyken ve şarj olurken verilerinizi günlük olarak Google Drive\'a otomatik yedekler.</string>
+    <string name="auto_backup_sign_in_required">Otomatik yedeklemeyi etkinleştirmek için lütfen Google hesabınıza giriş yapın.</string>
+    <string name="auto_backup_enabled_toast">Otomatik yedekleme etkinleştirildi.</string>
+    <string name="auto_backup_disabled_toast">Otomatik yedekleme devre dışı bırakıldı.</string>
+    <string name="notification_permission_title">Bildirim İzni</string>
+    <string name="notification_permission_rationale">Otomatik yedeklemelerin durumunu gösterebilmek için bu izin gereklidir. Bu izin olmadan yedeklerinizin başarılı olup olmadığını bilemezsiniz.</string>
+    <string name="notification_permission_denied">Bildirim izni reddedildi. Otomatik yedekleme devre dışı bırakılacak.</string>
+    <string name="backup_channel_name">Yedekleme Bildirimleri</string>
+    <string name="backup_channel_description">Otomatik yedekleme durumu için bildirimler.</string>
+    <string name="backup_notification_progress_title">Arşiviniz yedekleniyor...</string>
+    <string name="backup_success_title">Yedekleme Tamamlandı</string>
+    <string name="backup_success_message">Arşiviniz %1$s tarihinde başarıyla yedeklendi.</string>
+    <string name="backup_failed_title">Yedekleme Başarısız</string>
+    <string name="backup_failed_message">Arşiviniz yedeklenemedi. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="backup_failed_message_exception">Yedekleme sırasında bir hata oluştu: %s</string>
+    <string name="action_next">İleri</string>
+    <string name="action_skip">Atla</string>
+    <string name="action_finish">Bitir</string>
+    <string name="login_title">Arşivini Güvene Al</string>
+    <string name="login_description">Dosyalarınızı otomatik olarak Google Drive\'a yedeklemek ve güvende tutmak için Google hesabınızla giriş yapın.</string>
+    <string name="login_button_text">Google ile Giriş Yap</string>
+    <string name="login_skip_button_text">Daha Sonra</string>
+    <string name="backup_found_title">Yedek Bulundu</string>
+    <string name="backup_found_message">%s tarihli bir yedeğiniz bulundu. Verilerinizi şimdi geri yüklemek ister misiniz?</string>
+    <string name="action_restore_backup">Yedeği Geri Yükle</string>
+    <string name="action_start_fresh">Atla ve Temiz Başla</string>
+    <string name="no_backup_found_title">Yedek Bulunamadı</string>
+    <string name="no_backup_found_message">Gelecekte verilerinizi güvende tutmak için otomatik yedeklemeyi etkinleştirmek ister misiniz?</string>
+    <string name="action_enable_auto_backup">Otomatik Yedeklemeyi Aç</string>
+    <string name="restoring_data_title">Veriler Geri Yükleniyor</string>
+    <string name="restoring_data_message">Verileriniz geri yüklenirken lütfen bekleyin...</string>
+    <string name="checking_backup_message">Mevcut yedekler kontrol ediliyor...</string>
+    <string name="privacy_options">Gizlilik Seçenekleri</string>
+    <string name="privacy_options_error">Ayarlar yüklenemedi.</string>
+    <string name="terms_agreement_text"><a href="https://www.codenzi.com/smart-term-of-use.html">Kullanım Koşullarını</a> okudum ve kabul ediyorum</string>
+    <string name="accept_terms_to_continue">Devam etmek için lütfen Kullanım Koşullarını kabul edin.</string>
+    <string name="action_terms_of_use">Kullanım Koşulları</string>
+    <string name="action_contact_us">Bize Ulaşın</string>
+    <string name="contact_us_subject">Akıllı Arşiv Uygulaması İçin Geri Bildirim</string>
+    <string name="backup_starting_title">Yedekleme Başlatılıyor</string>
+    <string name="backup_starting_message">Verileriniz Google Drive\'a yedekleniyor. Lütfen bekleyin...</string>
+    <string name="backup_success">Yedekleme başarıyla tamamlandı!</string>
+    <string name="backup_error">Yedekleme sırasında bir hata oluştu. Lütfen internet bağlantınızı kontrol edin.</string>
+    <string name="restore_data_title">Verileri Geri Yükle</string>
+    <string name="restore_data_message">Mevcut tüm verileriniz silinecek ve son yedeklemedeki verilerle değiştirilecektir. Bu işlem geri alınamaz. Onaylıyor musunuz?</string>
+    <string name="restore_data_confirm">Evet, Geri Yükle</string>
+    <string name="restoring_dialog_title">Geri Yükleniyor</string>
+    <string name="restoring_dialog_message">Yedekleriniz indiriliyor, lütfen bekleyin...</string>
+    <string name="restore_success_restarting">Veriler başarıyla geri yüklendi. Uygulama yeniden başlatılıyor.</string>
+    <string name="restore_error_no_backup">Geri yüklenecek bir yedek bulunamadı.</string>
+    <string name="restore_error_download">Yedek indirilemedi. İnternet bağlantınızı veya Google Drive izinlerinizi kontrol edin.</string>
+    <string name="restore_error_validation">Yedek dosyası bozuk veya geçersiz. Lütfen yeni bir yedek almayı deneyin.</string>
+    <string name="restore_error_generic">Dosyalar geri yüklenemedi. Cihazınızda yeterli alan olduğundan emin olun.</string>
+    <string name="restore_error_unknown">Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="restore_failed_title">Geri Yükleme Başarısız</string>
+    <string name="delete_all_data_title">Tüm Verileri Sil</string>
+    <string name="delete_all_data_message">Bu işlem, hem bu cihazdaki tüm arşivlenmiş dosyalarınızı hem de Google Drive\'daki yedeğinizi kalıcı olarak silecektir. Bu işlem geri alınamaz. Emin misiniz?</string>
+    <string name="delete_all_data_confirm">Evet, Hepsini Sil</string>
+    <string name="deleting_data_title">Veriler Siliniyor</string>
+    <string name="deleting_data_message">Tüm verileriniz siliniyor...</string>
+    <string name="delete_data_success">Tüm verileriniz başarıyla silindi.</string>
+    <string name="welcome_message">Hoş geldin, %1$s</string>
+    <string name="sign_in_failed">Google ile giriş başarısız oldu.</string>
+    <string name="sign_out_success">Oturum kapatıldı.</string>
+    <string name="sign_in_cancelled">Google ile giriş iptal edildi.</string>
+    <string name="sign_in_failed_with_error">Giriş başarısız oldu. Hata kodu: %1$d</string>
+    <string name="restore_successful">Veriler başarıyla geri yüklendi.</string>
+    <string name="restore_failed">Geri yükleme başarısız oldu.</string>
+    <string name="no_email_client">Bu isteği işleyecek bir e-posta uygulaması bulunamadı.</string>
+    <string name="camera_permission_needed">Kamera izni olmadan bu özellik kullanılamaz.</string>
+    <string name="no_other_category_to_move">Taşınacak başka kategori bulunmuyor.</string>
+    <string name="file_already_exists_with_name">\'%1$s\' adında bir dosya zaten var.</string>
+    <string name="this_file_already_exists">Bu dosya zaten \'%1$s\' adıyla mevcut.</string>
+    <string name="settings_category_premium">Premium\'a Geç</string>
+    <string name="premium_main_title">Arşiv Deneyiminizi Yükseltin</string>
+    <string name="premium_main_description">Reklamsız ve kesintisiz bir kullanım için Smart Archive Premium\'a geçin, gelecekteki geliştirmeleri destekleyin!</string>
+    <string name="premium_plan_yearly">YILLIK</string>
+    <string name="premium_plan_monthly">AYLIK</string>
+    <string name="premium_yearly_deal_badge">%%%d TASARRUF</string>
+    <string name="premium_price_format_monthly">%1$s / ay</string>
+    <string name="premium_price_format_yearly">%1$s / yıl</string>
+    <string name="premium_feature_1">Tüm Reklamları Kaldırın</string>
+    <string name="premium_feature_2">Öncelikli Destek Alın</string>
+    <string name="premium_feature_3">Uygulamanın Gelişimini Destekleyin</string>
+    <string name="premium_button_text">Premium\'u Başlat</string>
+    <string name="premium_thanks_title">Premium Ayrıcalıklarına Hoş Geldiniz!</string>
+    <string name="premium_thanks_description">Akıllı Arşiv\'i desteklediğiniz için teşekkür ederiz. Tüm reklamlar kaldırıldı ve premium özellikleriniz aktif edildi.</string>
+    <string name="purchase_success">Satın alma başarılı! Reklamlar artık devre dışı.</string>
+    <string name="purchase_failed">Satın alma başarısız oldu. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="purchase_pending">Satın alma işlemi beklemede. Onaylandığında erişiminiz sağlanacaktır.</string>
+    <string name="purchase_cancelled">Satın alma iptal edildi.</string>
+    <string name="product_not_found">Ürün şu anda mevcut değil. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="intro_welcome_title">Hoş Geldiniz!</string>
+    <string name="intro_welcome_description">Akıllı Arşiv, tüm belgelerinizi, faturalarınızı ve önemli dosyalarınızı tek bir yerde güvenle saklamanızı sağlar.</string>
+    <string name="intro_archive_title">Kolayca Arşivleyin</string>
+    <string name="intro_archive_description">Diğer uygulamalardan dosya paylaşarak veya doğrudan fotoğraf çekerek belgelerinizi saniyeler içinde arşivleyin.</string>
+    <string name="intro_backup_title">Güvenli Yedekleme</string>
+    <string name="intro_backup_description">Google Drive entegrasyonu ile tüm arşivinizi tek dokunuşla yedekleyin ve dilediğiniz zaman geri yükleyin.</string>
+
+    <string name="default_file_name">isimsiz_dosya_%1$d</string>
+    <string name="action_download_data">Verilerimi İndir</string>
+    <string name="download_data_success">Verileriniz İndirilenler klasörüne başarıyla kaydedildi: %1$s</string>
+    <string name="download_data_error">Veriler dışa aktarılırken bir hata oluştu.</string>
+    <string name="exporting_data_title">Veriler Dışa Aktarılıyor</string>
+    <string name="exporting_data_message">Verileriniz paketleniyor, lütfen bekleyin...</string>
+
+    <string name="action_delete_drive_only">Sadece Drive\'daki yedeği sil</string>
+    <string name="action_delete_drive_and_device">Drive\'dan ve bu cihazdan sil</string>
+    <string name="delete_drive_only_confirmation_message">Bu işlem, Google Drive\'daki yedeğinizi kalıcı olarak silecektir. Cihazınızdaki yerel dosyalarınız etkilenmeyecektir. Bu işlem geri alınamaz. Emin misiniz?</string>
+    <string name="delete_drive_data_success">Google Drive yedeği başarıyla silindi.</string>
+
+
+
+
+
+
+</resources>
+

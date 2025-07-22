@@ -1,0 +1,17 @@
+# Android Studio & IntelliJ
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+
+# Local configuration
+local.properties
+
+# Mac & Windows
+.DS_Store
+Thumbs.db
+
+# Captures
+captures/
